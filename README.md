@@ -1,16 +1,16 @@
-Download DebianSlim project
+Download AppHub project
 
-# git clone https://github.com/EdgeSolution/Debian-slim-docker.git
+# git clone https://github.com/EdgeSolution/AppHub.git
 
-Run the Debian slim docker image for AndroidDM
+Run the docker image for AppHub
 
 
-# v1.0.1 version
+# v1.0.0 version
  - New features
  - docker images version
-  - androiddm/androiddm-javaenv-slim-dev:v1.7.9 
-  - androiddm/androiddm-astore-slim-dev:v1.6.7
-  - androiddm/androiddm-mosquitto-dev:v1.3
-  - androiddm/androiddm-novnc-dev:v1.0
+  - edgesolution/apphub-repo:v1.0.0 
+  - edgesolution/apphub-manager:v1.0.0
+  - edgesolution/apphub-mosquitto:v1.0
+  - edgesolution/apphub-novnc:v1.0
   - postgres:9.4
   - portainer/portainer

@@ -1,7 +1,7 @@
 version: '3'
 services:
      androidlink: 
-        image: 172.21.73.113/eidevice/androiddm-javaenv-slim-dev:v2.0.3
+        image: edgesolution/apphub-repo:v1.0.0
         restart: always
         depends_on:
                 - mqtt
@@ -20,7 +20,7 @@ services:
         environment: 
                 - TZ=Asia/Shanghai
      mqtt:
-        image: 172.21.73.113/eidevice/androiddm-mosquitto-dev:v1.1
+        image: edgesolution/apphub-mosquitto:v1.0
         restart: always
         ports: 
                 - "1883:1883"
@@ -40,7 +40,7 @@ services:
         networks: 
               - advnet
      astore:
-        image: 172.21.73.113/eidevice/androiddm-astore-slim-dev:v2.0.3
+        image: edgesolution/apphub-manager:v1.0.0
         restart: always
         depends_on:
                 - db
@@ -57,7 +57,7 @@ services:
         environment: 
                 - TZ=Asia/Shanghai
      novnc:
-        image: 172.21.73.113/eidevice/androiddm-novnc-dev:v1.4
+        image: edgesolution/apphub-novnc:v1.0
         restart: always
         volumes:
                 - ./noVnc/log/:/root/adv/log

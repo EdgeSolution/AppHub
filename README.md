@@ -1,6 +1,6 @@
 Download DebianSlim project
 
-# git clone https://github.com/EdgeSolution/Debian-slim-docker-admin.git
+# git clone https://github.com/EdgeSolution/AppHub.git
 
 `Run the Debian slim docker image for AndroidManager`
 

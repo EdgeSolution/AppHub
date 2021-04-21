@@ -1,7 +1,7 @@
 version: '3'
 services:
      androidlink: 
-        image: edgesolution/apphub-repo:v1.0.0
+        image: edgesolution/apphub-manager:v1.0.0
         restart: always
         depends_on:
                 - mqtt
@@ -32,7 +32,7 @@ services:
         image: postgres:9.4
         restart: always
         environment:
-                POSTGRES_PASSWORD: postgres
+                POSTGRES_PASSWORD: advantech1990
                 POSTGRES_DB: aimlink
         ports:
                 - "5432:5432"
@@ -40,7 +40,7 @@ services:
         networks: 
               - advnet
      astore:
-        image: edgesolution/apphub-manager:v1.0.0
+        image: edgesolution/apphub-repo:v1.0.0
         restart: always
         depends_on:
                 - db

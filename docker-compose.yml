@@ -7,13 +7,16 @@ services:
                 - mqtt
                 - db
         volumes:
-                - ./java-env/logs:/root/adv/logs
-                - ./java-env/license:/root/adv/license
-                - ./java-env/solutionAppIcon:/root/adv/solutionAppIcon
+                - ./manager/logs:/root/adv/manager/logs
+                - ./manager/license:/root/adv/manager/license
                 - /sys:/sys
+                - ./repo/logs:/root/adv/repo/logs
+                - ./repo/data:/var/www/html/DEPLOYREPO
         ports:
                 - "8080:8080"
                 - "8081:8081"
+                - "30001:30019"
+                - "30002:80"
         environment:
            TZ: "Asia/Shanghai"
            POSTGRES_HOST: m2m-postgresSQL
@@ -27,7 +30,7 @@ services:
         env_file: .env
 
         command: /root/adv/run.sh
-        container_name: m2mserver
+        container_name: apphub
         networks: 
                 - advnet
      mqtt:
@@ -50,23 +53,6 @@ services:
         container_name: m2m-postgresSQL
         networks: 
               - advnet
-     astore:
-        image: edgesolution/apphub-repo:v1.0.0
-        restart: always
-        depends_on:
-                - db
-        volumes:
-                - ./astore/logs:/root/adv/logs
-                - ./astore/data:/var/www/html/DEPLOYREPO
-        ports:
-                - "30001:30019"
-                - "30002:80"
-        command: /root/adv/run.sh
-        container_name: aimlink_astore
-        networks: 
-                - advnet
-        environment: 
-                - TZ=Asia/Shanghai
      novnc:
         image: edgesolution/apphub-novnc:v1.0
         restart: always
@@ -76,10 +62,10 @@ services:
                 - "9191:9191"
                 - "5901:5901"
                 - "5500:5500"
-                - "50000-51000:50000-51000"
+                - "50500-50700:50500-50700"
                 - "8024:8024"
         command: /root/adv/run.sh
-        container_name: m2m-novnc
+        container_name: apphub-nat
         networks: 
                 - advnet
 networks:

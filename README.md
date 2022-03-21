@@ -7,8 +7,8 @@ AppHub is a web-based solution for remote device and system management. It provi
 * [License](https://wise-paas.advantech.com/en-us/marketplace/product/advantech.wise-paas-apphub/pricing-details)
 
 *  How to get AppHub
-    -  [AppHub Server ISO](https://drive.google.com/drive/folders/1ijrMNZEtBwX1auGMGfCRlcl2l9r0etTV?usp=sharing)
-    -  [AppHub Server Installation guide(On-premise or Cloud VM )](https://github.com/EdgeSolution/AppHub-VM-Cloud)
+    -  [AppHub Server ISO(Install from ISO)](https://drive.google.com/drive/folders/1ijrMNZEtBwX1auGMGfCRlcl2l9r0etTV?usp=sharing)
+    -  [AppHub Server Online Installation guide(On-premise or Cloud VM)](https://github.com/EdgeSolution/AppHub-VM-Cloud)
     -  [Agent(Windows, Linux, Android)](https://drive.google.com/drive/folders/17LYyCHQp48ghUJmuU8s56tuWzMQIpy4X?usp=sharing)
 
 * Contact: 

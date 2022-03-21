@@ -3,9 +3,13 @@
 AppHub is a web-based solution for remote device and system management. It provides software deployment and OTA, real-time monitoring and event alarm features, and system control/setting functions for industrial edge devices with Windows, Linux, or Android systems. These features improve operation and maintenance efficiency, saving labor, time, and money. 
 
 
-* [AppHub Server Installation guide(On-premise or Cloud VM )](https://github.com/EdgeSolution/AppHub-VM-Cloud)
 * [AppHub User Manual](https://docs.wise-paas.advantech.com/en/Guides_and_API_References/ApplicationServices/1611826936336928113/1613468986148692729/v1.0.1)
 * [License](https://wise-paas.advantech.com/en-us/marketplace/product/advantech.wise-paas-apphub/pricing-details)
+
+*  How to get AppHub
+    -  [AppHub Server ISO](https://drive.google.com/drive/folders/1ijrMNZEtBwX1auGMGfCRlcl2l9r0etTV?usp=sharing)
+    -  [AppHub Server Installation guide(On-premise or Cloud VM )](https://github.com/EdgeSolution/AppHub-VM-Cloud)
+    -  [Agent(Windows, Linux, Android)](https://drive.google.com/drive/folders/17LYyCHQp48ghUJmuU8s56tuWzMQIpy4X?usp=sharing)
 
 * Contact: 
     -   Email: jianfeng.dai@advantech.com.cn

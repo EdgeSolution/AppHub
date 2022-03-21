@@ -1,3 +1,4 @@
+[查看中文版](https://github.com/EdgeSolution/AppHub/blob/main/README_ZH.md)
 # WISE-IoTSuite/AppHub
 * Remote device and system management service<br>
 AppHub is a web-based solution for remote device and system management. It provides software deployment and OTA, real-time monitoring and event alarm features, and system control/setting functions for industrial edge devices with Windows, Linux, or Android systems. These features improve operation and maintenance efficiency, saving labor, time, and money. 

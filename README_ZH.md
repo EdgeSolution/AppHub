@@ -5,9 +5,9 @@ AppHub是一款基于web浏览器的远程设备和系统管理软件，可以�
 * [AppHub使用文档](https://docs.wise-paas.advantech.com.cn/zh-cn/Guides_and_API_References/ApplicationServices/1611826936336928113/1613468986148692729)
 * [购买激活序列号和激活]
     -   [私有部署，离线激活，比如部署在自己的服务器，公有云虚拟机等](https://wise-iot.advantech.com.cn/zh-cn/marketplace/product/advantech.wise-paas-apphub/pricing-details)
-    -   [研华WISE-PaaS公有云部署](https://www.wise-paas.cn/product/WISE-IoTSuite_AppHub)
-    -   
-* AppHub视频介绍：
+    -   [研华WISE-PaaS公有云部署订阅](https://www.wise-paas.cn/product/WISE-IoTSuite_AppHub)
+    -    
+* AppHub视频介绍(bilibili)：
     -   [快速入门](https://www.bilibili.com/video/BV1WP4y177xL)
     -   [详细讲解和演示](https://www.bilibili.com/video/BV1RP4y147gH)
     -   [OTA相关功能](https://www.bilibili.com/video/BV1zu411D7gF)

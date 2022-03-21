@@ -21,7 +21,7 @@ AppHub是一款基于web浏览器的远程设备和系统管理软件，可以�
     -  [AppHub设备端Agent(Windows, Linux, Android)，百度云盘提取码：xian](https://pan.baidu.com/s/1dgU8pu1wn8B0bNqVAftiCw)
 
 * 联系我们: 
-    -   电子邮件: jianfeng.dai@advantech.com.cn;WeiJw.Lien@advantech.com.tw
+    -   电子邮件: jianfeng.dai@advantech.com.cn;
     -   微信号: jianfeng_dai
 
 * 主要功能特性

@@ -12,6 +12,7 @@ AppHub是一款基于web浏览器的远程设备和系统管理软件，可以�
     -   [详细讲解和演示](https://www.bilibili.com/video/BV1RP4y147gH)
     -   [OTA相关功能](https://www.bilibili.com/video/BV1zu411D7gF)
     -   [私有应用商店方案](https://www.bilibili.com/video/BV1aF411p721)
+    -   [研华工业Android安全配置管理](https://www.bilibili.com/video/BV1Wf4y1V7WZ)
 
 
 * 如何获取AppHub相关软件
@@ -32,3 +33,55 @@ AppHub是一款基于web浏览器的远程设备和系统管理软件，可以�
 ![image](https://user-images.githubusercontent.com/20899121/159217164-08dd2660-2dba-4294-a75a-e5ba895e6880.png)
 
 ![image](https://user-images.githubusercontent.com/20899121/159217187-a05174f3-8e30-4dd7-8832-68d7b0270e63.png)
+
+| 功能 |支持情况<br> √支持<br>+进行中<img width=200/> | 描述说明 |
+| ---- | -----  | --- |
+|**总体情况说明**|		
+|支持Windows/Linux/Android|√|	AppHub测试过Win7,Win10, Ubuntu, Fedora, Yocto，Debian，Android 6/8/10/11等各种系统和版本，兼容性好，绝大部分功能即装即用，无需客制OS|
+|支持X86/X64/ARM/ARM64/MIPS|	√|	AppHub支持各种X86平台，和ARM平台，MIPS平台，ARM这边包括TI AM335x，Rockchip RK-3288，RK-3399，NXP iMX6/iMX8，高通等平台, MIPS平台也有简单验证过|
+|广泛支持研华产品|	√	|理论上可以支持研华任意产品，AppHub在很多研华产品和设备上已进行过测试，已测试验证过IIOT的UNO，TPC，PPC，ITA，ECU，SIOT的UPOS，AIM平板，UTC，USM，UPOS等产品部门的产品以及EIOT少量产品，测试过的具体型号见最底下说明。|
+|Server支持各种形式的部署|	√|	本地部署（支持Windows，Linux，VM），公有云部署（支持阿里，腾讯，Azure等共有云），支持WISE-PaaS公有云/私有云/智能一体机|
+|收费和支持|	√|	收费，License从研华Marketplace购买，在地化支持好，研发团队在西安|
+|Agent程序系统兼容性|	√	|对接标准系统API，绝大部分功能直接可以使用。Agent核心只有一个单独程序，跨平台支持性好，Android Agent为标准Android APP，直接安装即可。Windows和Linux为go语言开发，静态编译，没有依赖库，Android部分功能需要BSP支持，Windows/Linux系统更新需要OS支持，其他功能可直接使用|
+|是否支持非研华设备	|√	|支持，但某些功能，可能需要设备厂商配合|
+|Restful API|√|	开放，允许第三方集成，研华提供技术支持，以专案方式进行
+|多国语言支持|	√|	目前支持简中，英文，日语，如有其他语言需求，可提供支持|
+|**通用功能**	|	
+|设备基本信息获取|	√	|可获取和显示连线状态，设备名称，BIOS版本，系统及版本，CPU型号，内存大小，主机名，时区，Agent版本信息等多种信息|
+|Dashboard总览运行状态|	√	|主要快速发现设备异常，并快速找到问题问题设备和问题点|
+|设备分组和批量操作|	√	|大部分控制操作都可以批量操作，如OTA，远程控制等|
+|BIOS更新支持|	+	|目前不支持，预计Q3可以支持，目前讨论规划中|
+|App远程安装、更新、卸载	|√	|支持exe，zip, tar,gz，deb, APK等各种形式安装包，可以查询到当前设备安装的版本，以及server端新的版本信息，可以批量安装，也可以一次安装多个应用。
+支持远程卸载应用|
+|操作系统远程更新|	√|	Android默认支持，Windows和Linux需要BSP配合，采用专案方式支持|
+|远程桌面|	√|	基于VNC协议，基于Web浏览器访问，可以穿透内网|
+|CPU，硬盘，内存监控和告警	|√|	监控CPU，硬盘，内存等使用状态，可设定告警阈值，超过阈值会产生告警|
+|USB外设监控和插拔告警|	√|	USB外设监控，当有插拔事件时，会产生告警|
+|应用APP监控和异常告警|	√	|可以选择需要监控的APP，当监控的APP异常退出时，可产生告警，管理员可远程重启该应用|
+|移动设备电池监控和异常告警|	√	|可以检测电池的电量，充电状态，健康度等，有异常时会产生告警|
+|报警问题智能定位和排查|	√	|通过可视化方式，快速定位问题发生点及其原因|
+|远程获取设备运行日志|	√|	方便远程排查和定位问题，如Android的Logcat信息，Agent的运行日志，Linux 内核打印信息等 |
+|Web SSH远程控制台	|√	|仅支持Linux平台，基于ssh服务，web浏览器访问，可穿透内网|
+|远程启动，关闭APP应用|	√	|可以远程启动，关闭设备上的应用，某些Windows系统服务除外|
+|远程关机和重启|	√	|远程对设备进行关机和重启，立即生效，可批量操作|
+|定时关机和重启|	√	|可设定时间，进行定时关机和重启，对于重启，还可以设定隔间一定时间自动重复重启，比如一周重启一次，一个月重启一次|
+|调节背光，音量等|	√	|可远程对设备的背光，亮度等进行调节|
+|报警通知	|√	|支持，目前只支持web端报警和通知到AppHub手机应用|
+|**Docker相关功能**	|	
+|基于docke compose远程部署docker应用|	√	|通过docker-compose文件远程部署docker应用，image可以从docker hub或者私有docker仓库抓取|
+|docker远程启动，停止等控制操作|	√|	远程控制docker容器|
+|docker运行状态远程监控|	√	|包括当前运行状态，都docker内部资源情况，log日志，映射端口等，网络负载等，可以查看|
+|docker应用监控和异常告警|	√	|当监控docker应用异常推出，可产生告警，管理员可以远程重启docker应用|
+|docker image远程管理	|√	|可以远程查看和删除docker image|
+|docker swarm群集管理|	√	|可远程管理docker swarm集群，监控集群运行状态|
+|工业Android特有功能|		
+|Android App私有应用商店方案|	√	|可以管理Android APP，搭配AppHub OTA功能实现远程部署，同时也有提供APP store client，可以再设备端安装和更新APP|
+|Android App白名单|	√	|启动白名单后，只有白名单中程序才可见，才能运行，目前只针对后安装App,  系统App默认在白名单中|
+|Android 远程桌面|	√	|部分Android系统，因为权限问题，需要BSP配合实现|
+|Android Kiosk模式设定管理|	√	|需要BSP配合实现，研华设备默认支持，Kiosk设定可以将一个Android应用设定为开机自动全屏启动，菜单栏和导航栏会自动隐藏|
+|Anddroid企业级安全设定|	√	|参考Google EMM方案实现，无需通过google GMS和AER认证，管理员设定后，使用者无法在设备上更改安全策略。包括ADB，相机，USB，WIFI，BT，密码管理，安全日志，截屏权限等几十种安全相关设定|
+|**其他特别功能**	|	
+|支持研华codesys 工程的远程部署和管理	|√	|和研华codesys产品部门紧密联合开发，可支持codesys设备的通用管理，以及codesys运行状态的监控，工程文件的远程部署，加载，启动等。|
+
+
+

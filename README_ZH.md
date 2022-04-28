@@ -3,10 +3,8 @@
 AppHub是一款基于web浏览器的远程设备和系统管理软件，可以管理基于Windows、Linux或Android系统的工业边缘设备，提供了软件部署和OTA、实时监控和事件报警以及系统控制和配置等诸多功能。通过使用这些功能，可以大大提高运维效率，节省运维人力、时间和成本。
 
 * [AppHub使用文档](https://docs.wise-paas.advantech.com.cn/zh-cn/Guides_and_API_References/ApplicationServices/1611826936336928113/1613468986148692729)
-* [购买激活序列号和激活]
-    -   [私有部署，离线激活，比如部署在自己的服务器，公有云虚拟机等](https://wise-iot.advantech.com.cn/zh-cn/marketplace/product/advantech.wise-paas-apphub/pricing-details)
-    -   [研华WISE-PaaS公有云部署订阅](https://www.wise-paas.cn/product/WISE-IoTSuite_AppHub)
-    -    
+
+    
 * AppHub视频介绍(bilibili)：
     -   [快速入门](https://www.bilibili.com/video/BV1WP4y177xL)
     -   [详细讲解和演示](https://www.bilibili.com/video/BV1RP4y147gH)
@@ -21,6 +19,10 @@ AppHub是一款基于web浏览器的远程设备和系统管理软件，可以�
     -  [研华WISE-PaaS中国区公有云官网](https://www.wise-paas.cn/product/WISE-IoTSuite_AppHub)
     -  [WISE-PaaS云平部署用户指引](https://github.com/EdgeSolution/AppHub_On_EnSaaS/blob/master/README.md)
     -  [AppHub设备端Agent(Windows, Linux, Android)，百度云盘提取码：xian](https://pan.baidu.com/s/1dgU8pu1wn8B0bNqVAftiCw)
+ 
+ * [购买激活序列号和激活]
+    -   [私有部署，离线激活，比如部署在自己的服务器，公有云虚拟机等](https://wise-iot.advantech.com.cn/zh-cn/marketplace/product/advantech.wise-paas-apphub/pricing-details)
+    -   [研华WISE-PaaS公有云部署订阅](https://www.wise-paas.cn/product/WISE-IoTSuite_AppHub)
 
 * 联系我们: 
     -   电子邮件: jianfeng.dai@advantech.com.cn;

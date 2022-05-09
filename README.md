@@ -19,18 +19,21 @@ AppHub is a web-based solution for remote device and system management. It provi
 *  [Download PDF](https://docs.wise-paas.advantech.com/en/Guides_and_API_References/ApplicationServices/1611826936336928113/1613468986148692729/v1.0.1)
 
 ##  How to get AppHub
-Apphub server software can run in different environments, including local server, public cloud, private cloud, Advantech wise PAAS platform, etc
+Apphub server  can run in many environments, including on-premise local server, public cloud(such as alibaba cloud, azure cloud, tencent cloud and so on), private cloud, Advantech WISE-PaaS platform, etc.
+we provide different installtion SOP for different enviroment.
 * [AppHub Server ISO Installation Guild(Install from ISO, On-premise or Cloud VM)](https://drive.google.com/drive/folders/1ijrMNZEtBwX1auGMGfCRlcl2l9r0etTV?usp=sharing)
 * [AppHub Server Online Installation Guild(On-premise or Cloud VM)](https://github.com/EdgeSolution/AppHub-VM-Cloud)
 * [AppHub Server Advantech WISE-PaaS EnSaaS Installation Guild](https://github.com/EdgeSolution/AppHub_On_EnSaaS)
+
+For device，User should install AppHub agent on device, user can download agent from the following we site:
 * [Agent Download(Windows, Linux, Android)](https://drive.google.com/drive/folders/17LYyCHQp48ghUJmuU8s56tuWzMQIpy4X?usp=sharing)
     
 ## License
 
 AppHub can manager 3 devices directly for trial by default, no license need, you just to install the server and agent for free trail.
 
-If there are more than 10 devices, you need to apply for software license for activation。
-Get License for [Advantech Marketplace](https://wise-paas.advantech.com/en-us/marketplace/product/advantech.wise-paas-apphub/pricing-details)
+If there are more than 10 devices, you need to apply for software license for activation.<br>
+Get License from [Advantech Marketplace](https://wise-paas.advantech.com/en-us/marketplace/product/advantech.wise-paas-apphub/pricing-details)
 
 ## Contact: 
 * Email: jianfeng.dai@advantech.com.cn;yingyin.qu@advantech.com.cn
@@ -64,22 +67,22 @@ Get License for [Advantech Marketplace](https://wise-paas.advantech.com/en-us/ma
 |App Monitor and alarm|	√	|The App to be monitored can be selected. When the monitored app exits abnormally, an alarm can be generated, and the administrator can restart the App remotely|
 |Battery monitor and alarm|	√	|It can detect the battery power, charging state, health, etc., and will generate an alarm in case of abnormality|
 |troubleshooting of alarm problems|	√	|Quickly locate the problem point and its causes through visualization|
-|Get runtime device log|	√|	It is convenient for remote troubleshooting and locating problems, such as Android logcat information, agent operation log, Linux kernel print information, etc |
-|Web SSH console	|√	|It only supports Linux platform, based on SSH service, accessed by web browser, and can penetrate the intranet|
-|remote start/stop A|	√	|You can start and close applications on the device remotely, except for some windows system services|
-|Power off, reboot|	√	|Remotely shut down and restart the equipment, which takes effect immediately and can be operated in batches|
-|Scheduled shutdown and restart|	√	|The time can be set for regular shutdown and restart. For restart, the compartment can also be set to restart automatically for a certain time, such as once a week and once a month|
-|Brightness，volume control|	√	|The backlight and brightness of the equipment can be adjusted remotely|
-|General alarm notification	|√	|Yes, at present, it only supports web-based alarm and notification to apphub mobile applications. At present, it only supports CPU, memory, hard disk, battery, application monitoring, docker monitoring and related alarms of USB plug-in events. It can set alarm rules and thresholds. If you need to customize alarms, you need to customize them|
-|Custom alarm notification|+	|It is not supported temporarily. It is currently being implemented and can be extended through a new plug-in mechanism without upgrading the whole apphub. It is expected to be released in Q2 2022|
-|Alarm and device linkage|+|It is not supported temporarily. It is currently being implemented. It is expected to be released in Q2 2022. The default handler for exceptions can be set|
-|**Docker Related functions**	|	
-|docke compose deployment|	√	|The docker application is deployed remotely through the docker compose file, and the image can be retrieved from the docker hub or private docker warehouse|
+|Device runtime log|	√|	AppHub can get device runtime log such as Android logcat information, agent operation log, Linux kernel message information, etc rempotely, It is very convenient and helpful for remote troubleshooting and locating problems,  |
+|Web SSH console|√	|It only supports Linux platform, based on SSH service, accessed by web browser, and can penetrate the intranet|
+|Remote start/stop App|	√	|You can start/stop Apps on the device remotely|
+|Power off, reboot|	√	|Remotely shut down and restart the device, which takes effect immediately and can be operated in batches|
+|Scheduled shutdown and restart|	√	|The schedul time can be set for regular shutdown and restart. For restart,  can also set to restart automatically for a certain time, such as once a week and once a month|
+|Brightness，volume control|	√	|The brightness, volume of the device can be adjusted remotely|
+|Alarm notification	|√	|web-based alarm and notification, can also can send alarm notifiction to mobile phone or mail. At present, it only supports CPU, memory, hard disk, battery, application monitoring, docker monitoring and related alarms of USB plug-in events. user can set alarm rules and thresholds. If user need to customize alarms,we can provide customization|
+|Custom alarm notification|+	|It is not supported temporarily. It is currently being implemented and can be extended through a new plug-in mechanism. It is expected to be released in Q2 2022. With this functions, user can monitor any status only with simple configuration, no coding|
+|Alarm and device linkage|+|It is not supported temporarily. It is currently being implemented. It is expected to be released in Q2 2022. This funciotn can trige a default handler automatically for an alarm event|
+|**Docker Related Functions**	|	
+|docke compose deployment|	√	|The docker application can be deploy remotely through the docker compose file, and the image can be retrieved from the docker hub or private docker repo|
 |docker start/stop control|	√|	Remote control docker container|
-|docker runtime status monitor|	√	|You can view the current running status, internal resources of docker, log, mapping port, network load, etc|
+|docker runtime status monitor|	√	|You can view the current running status, internal resources of docker, log, mapping port, network loading, etc|
 |docker App monitor and alarm |	√	|When the monitoring docker application is launched abnormally, an alarm can be generated, and the administrator can restart the docker application remotely|
-|docker image remote manager	|√	|Docker images can be viewed and deleted remotely|
-|docker swarm cluster manager|	√	|It can remotely manage the docker swarm cluster and monitor the running status of the cluster|
+|docker image remote manage	|√	|Docker images can be viewed and deleted remotely|
+|docker swarm cluster manage|	√	|It can remotely manage the docker swarm cluster and monitor the running status of the cluster|
 |**Industry Android Feature**|		
 |Android private App store|	√	|AppHub repo can manage Android App and remote deployment App. we also provides App store client, which can install and update App on the device side|
 |Android App white list|	√	|After starting the white list, only the App in the white list can be seen and run. At present, it is only for the post installation app, and the system app is in the white list by default|

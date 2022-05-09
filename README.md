@@ -12,6 +12,7 @@ AppHub is a web-based solution for remote device and system management. It provi
 
 ## Benifit and Mainly Features
 ![image](https://user-images.githubusercontent.com/20899121/159214436-ef65c572-e47a-41d9-853c-3e12e45f14aa.png)
+[Details Features List...](https://github.com/EdgeSolution/AppHub#detail-features-descriptions)
 
 ## AppHub User Manual
 *  [Online document](https://docs.wise-paas.advantech.com/en/Guides_and_API_References/ApplicationServices/1611826936336928113/1613468986148692729/v1.0.1)
@@ -36,42 +37,43 @@ Get License for [Advantech Marketplace](https://wise-paas.advantech.com/en-us/ma
 * Wechat: jianfeng_dai
 
 ## Detail Features descriptions
-Features list, you can download user manual for more detail information
+* Features list, you can download user manual for more details information<br>
+
 | Features |Support Status<br> √Supported<br>+Developing<img width=200/> | Descriptions |
 | ---- | -----  | --- |
 |**Oveview features**|		
-|Suport Windows/Linux/Android|√|	AppHub have tested Win7,Win10, Ubuntu, Fedora, Yocto，Debian，Android 6/8/10/11 OS, Most functions can work normally on the standard OS without system customization, and a few functions need system customization |
-|Support X86/X64/ARM/ARM64/MIPS|	√|	AppHub support x86/x64，ARM/ARM64，MIPS and other platforms，for example：ARM Platform we tested include TI AM335x，Rockchip RK-3288，RK-3399，NXP iMX6/iMX8，Qualcomm.|
-|Widely support Advantech products|	√	|Theoretically, AppHub can support any products of Advantech with Windows，linux or Android. Apphub has been tested on many Advantech products. It has tested and verified the products of UNO, TPC, PPC, ITA, ECU, UPOS, AIM tablet, UTC, USM.... See the description at the bottom for the specific models tested.|
-|Server can run in a variety of platform environments|	√|	On-premise(support Windows，Linux，VM)，Public cloud（Alibaba cloud，tencent cloud，Azure cloud...），Advantech WISE-PaaS EnSaaS(public cloud, private cloud)|
-|Not Free|	√|	Need license fee，user can buy License from advantech marketplace|
-|Agent Good compatibility|	√	|Interface with the standard system API, and most functions can be used directly. The agent core has only one separate program with good cross platform support. Android agent is a standard android app and can be installed directly. Windows and Linux are developed for go language, statically compiled, without dependent libraries. Some Android functions need BSP support, windows / Linux system update needs OS support, and other functions can be used directly|
-|Support non Advantech devices|√	|Yes, but some functions may require the cooperation of the equipment manufacturer|
-|Restful API|√|	It is open and allows third-party integration. Advantech provides technical support in the form of a project |
-|Multi-language support|	√|Chinese, English and Japanese are supported by default. If there are other language requirements, support can be provided|
+|Suport Windows/Linux/Android|√|AppHub have tested on Win7,Win10, Ubuntu(16.04 or newer), Fedora(FC21 or newer), Yocto(2.7 or newer)，Debian(8 or newer)，Android 6/8/10/11 OS, Most functions can work directoryly without any system customization, and a few functions need system customization |
+|Support X86/X64/ARM/ARM64/MIPS|	√|	AppHub manage x86/x64，ARM/ARM64，MIPS based deivces with windows,Linux or Android，for example：ARM Platform we hvae tested include TI AM335x，Rockchip RK-3288，RK-3399，NXP iMX6/iMX8，Qualcomm.|
+|Widely support Advantech products|	√	|Theoretically, AppHub can support any products of Advantech with Windows，Linux or Android. Apphub has been tested on many Advantech products. It has tested and verified the products of UNO, TPC, PPC, ITA, ECU, UPOS, AIM tablet, UTC, USM.... .|
+|Server environments|	√|	On-premise server(Windows，Linux，VM)，Public cloud（Alibaba cloud，tencent cloud，Azure cloud...），Advantech WISE-PaaS EnSaaS(public cloud, private cloud)|
+|Not Free|	√|	3 device for free trail, more devices need license,user can buy License from advantech marketplace|
+|Agent compatibility|	√	|Agent call OS standard system API and have good compatibility, most functions can be used directly. we provide agent installation package|
+|Support non Advantech devices?|√	|Theoretically, Yes, contact us for more information|
+|Restful API|√|	We will open these API for third-party integration. we also provides technical support|
+|Multi-language support| √ |Chinese, English and Japanese are supported by default. If there are other language requirements, we support customization|
 |**General features**	|	
-|Acquisition of basic equipment information|	√	|It can obtain and display connection status, device name, BIOS version, system and version, CPU model, memory size, host name, time zone, agent version and other information|
-|Dashboard overview for all device|	√	|It is mainly used to quickly find equipment abnormalities, and quickly find problem equipment and problem points|
-|Device grouping and batch operation|	√	|Most control can be operated in batch, such as OTA, remote control, etc|
-|BIOS update|	+	|It is not supported at present. It is expected that 2022 Q3 can be supported. It is currently under discussion and planning|
-|App OTA, install, uninstal	|√	|Support exe, zip, tar, GZ, Deb, APK and other forms of installation packages. You can query the version installed on the current device and the new version information on the server side. You can install in batch or install multiple applications at one time. Support remote uninstall application|
-|OS update|	√|	Android is supported by default. Windows and Linux require BSP cooperation and are supported in a special way|
-|Remote desktop|	√|	Based on VNC protocol and web browser access, it can penetrate the intranet|
-|CPU，Memory，Disk monitor and alarm|√|	Monitor the usage status of CPU, hard disk, memory, etc., and set the alarm threshold. If the threshold is exceeded, an alarm will be generated|
-|USB Peripheral monitoring and plugging alarm|	√|	USB peripherals are monitored. When there is a plug-in event, an alarm will be generated|
-|App Monitoring and and abnormal alarm|	√	|The app to be monitored can be selected. When the monitored app exits abnormally, an alarm can be generated, and the administrator can restart the application remotely|
-|Mobile device battery monitoring and abnormal alarm|	√	|It can detect the battery power, charging state, health, etc., and will generate an alarm in case of abnormality|
-|报警问题智能定位和排查|	√	|Quickly locate the problem point and its causes through visualization|
+|Device basic information display|	√	|AppHub can obtain and display connection status, device name, BIOS version, system version, CPU model name, memory size, host name, time zone, agent version and other information of the device|
+|Dashboard overview|	√	|Dashbord is mainly used to quickly find device abnormalities in overview mode |
+|Device grouping and batch operation|	√	|Most control functions can be operated in batch, such as OTA, remote control, device setting,etc|
+|BIOS update|	+	|It is not supported at present. we plan to support this funtion in 2022 Q2 for Windows device. It is currently under discussion and planning|
+|App OTA/install/uninstal	|√	|Remotely App deployment, support exe, zip, tar, GZ, Deb, APK and other forms of installation packages. user can install/update one App in batch or install multiple applications at one task. also support remote uninstall Apps|
+|OS update|	√|	Android OS update is supported by default. Windows and Linux need customization|
+|Remote desktop on web browser|	√|	Based on VNC protocol and web browser access, it can penetrate the intranet|
+|CPU/Memory/Disk usage monitor and alarm|√|	Monitor the usage status of CPU, hard disk, memory, etc., and support alarm threshold setting. If the threshold is trigged, Alarm will be generated|
+|USB peripheral monitor and alarm|	√|	USB peripherals are monitored. When there is a plugging event, an alarm will be generated|
+|App Monitor and alarm|	√	|The App to be monitored can be selected. When the monitored app exits abnormally, an alarm can be generated, and the administrator can restart the App remotely|
+|Battery monitor and alarm|	√	|It can detect the battery power, charging state, health, etc., and will generate an alarm in case of abnormality|
+|troubleshooting of alarm problems|	√	|Quickly locate the problem point and its causes through visualization|
 |Get runtime device log|	√|	It is convenient for remote troubleshooting and locating problems, such as Android logcat information, agent operation log, Linux kernel print information, etc |
 |Web SSH console	|√	|It only supports Linux platform, based on SSH service, accessed by web browser, and can penetrate the intranet|
 |remote start/stop A|	√	|You can start and close applications on the device remotely, except for some windows system services|
 |Power off, reboot|	√	|Remotely shut down and restart the equipment, which takes effect immediately and can be operated in batches|
-|定时关机和重启|	√	|The time can be set for regular shutdown and restart. For restart, the compartment can also be set to restart automatically for a certain time, such as once a week and once a month|
+|Scheduled shutdown and restart|	√	|The time can be set for regular shutdown and restart. For restart, the compartment can also be set to restart automatically for a certain time, such as once a week and once a month|
 |Brightness，volume control|	√	|The backlight and brightness of the equipment can be adjusted remotely|
 |General alarm notification	|√	|Yes, at present, it only supports web-based alarm and notification to apphub mobile applications. At present, it only supports CPU, memory, hard disk, battery, application monitoring, docker monitoring and related alarms of USB plug-in events. It can set alarm rules and thresholds. If you need to customize alarms, you need to customize them|
 |Custom alarm notification|+	|It is not supported temporarily. It is currently being implemented and can be extended through a new plug-in mechanism without upgrading the whole apphub. It is expected to be released in Q2 2022|
-|告警和设备联动|+|It is not supported temporarily. It is currently being implemented. It is expected to be released in Q2 2022. The default handler for exceptions can be set|
-|**Docker相关功能**	|	
+|Alarm and device linkage|+|It is not supported temporarily. It is currently being implemented. It is expected to be released in Q2 2022. The default handler for exceptions can be set|
+|**Docker Related functions**	|	
 |docke compose deployment|	√	|The docker application is deployed remotely through the docker compose file, and the image can be retrieved from the docker hub or private docker warehouse|
 |docker start/stop control|	√|	Remote control docker container|
 |docker runtime status monitor|	√	|You can view the current running status, internal resources of docker, log, mapping port, network load, etc|
@@ -79,14 +81,26 @@ Features list, you can download user manual for more detail information
 |docker image remote manager	|√	|Docker images can be viewed and deleted remotely|
 |docker swarm cluster manager|	√	|It can remotely manage the docker swarm cluster and monitor the running status of the cluster|
 |**Industry Android Feature**|		
-|Android private App store|	√	|It can manage android app and realize remote deployment with apphub OTA function. At the same time, it also provides app store client, which can install and update app on the device side|
-|Android App white list|	√	|After starting the white list, only the programs in the white list can be seen and run. At present, it is only for the post installation app, and the system app is in the white list by default|
-|Android remote desktop|	√	|Some Android systems require BSP cooperation because of permission problems|
+|Android private App store|	√	|AppHub repo can manage Android App and remote deployment App. we also provides App store client, which can install and update App on the device side|
+|Android App white list|	√	|After starting the white list, only the App in the white list can be seen and run. At present, it is only for the post installation app, and the system app is in the white list by default|
+|Android remote desktop|	√	| Remote desktop in web browser, Some Android veriosn require BSP customization because of permission|
 |Android Kiosk Mode setting|	√	|BSP cooperation is required. Advantech devices support by default. Kiosk settings can set an Android application to start automatically in full screen, and the menu bar and navigation bar will be automatically hidden|
-|[Anddroid Enterprise security policy](https://github.com/EdgeSolution/AppHub/edit/main/README.md#android-enterprise-aer-setting)|	√	|With reference to the implementation of Google EMM scheme, there is no need to pass Google GMS and aer authentication. After being set by the administrator, the user cannot change the security policy on the device. Including dozens of security related settings such as ADB, camera, USB, WiFi, BT, password management, security log, screenshot permission and so on|
+|[Anddroid Enterprise security policy](https://github.com/EdgeSolution/AppHub/edit/main/README.md#android-enterprise-aer-setting)|	√	|With reference to Google AER features, AppHub support some AER features remote configuration, the device is no need to pass Google GMS and AER certification. After being set by the AppHub, the device user cannot change the security policy on the device. Security related settings such as ADB, camera, USB, WiFi, BT, password management, security log, screenshot permission and so on are supported now and more secuirty features are in developing|
 |**Other Features**	|	
-|Support advantech codesys management	|√	|Developed in close cooperation with Advantech CoDeSys product department, it can support the general management of CoDeSys equipment, the monitoring of CoDeSys operation status, remote deployment, loading and startup of engineering files, etc.|
+|Advantech codesys device management	|√	|Beside the above functions, AppHub can also manage codesys proprietary functions, for example:  monitoring codesys runtime status, remote deployment project file, reload codesys configure file, and restart codesys App, etc.|
 
-## Android Enterprise （AER Setting）
-| Features |Support Status<br>√Supported<br>+Developing<img width=200/> | Descriptions |
-| ---- | -----  | --- |
+* Tested Devies List
+    - UNO-348/UNO-238/UNO-2271G/UNO-2484G/UNO-420/UNO-148/UNO-2473G
+    - TPC-324/TPC-110W/TPC-1251T(B)/TPC-1051WP/TPC-B510/TPC-1751T
+    - PPC-3120S/PPC3100/PPC112/PPC115/
+    - ITA-1710/ITA-1711/ITA-170
+    - ECU-1251/WISE-710/TPC-71W
+    - AIM-37/AIM-65/AIM-68/AIM-75/AIM-78
+    - RSB-4710/ROM3420
+    - USM-110/DLV-V72
+
+## AppHub for Advantech Android Enterprise Solution（Benchmarking Google AER）
+-   [Android Enterprise Recommended (AER) Security Policy and Setting](https://github.com/AIM-Android/overview/wiki/Android-Enterprise-Recommended-(AER)-Security-Policy-and-Setting) 
+-   Remote Device Manager and EMM Solution:AppHub
+-   [Private AppStore:AppHub Repo](https://github.com/AIM-Android/overview/wiki/Advantech-Industry-Android-Solution#42-private-app-storeapphub-repo)
+-   Android Zero-Touch solution(in developing)

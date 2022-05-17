@@ -21,9 +21,9 @@ AppHub is a web-based solution for remote device and system management. It provi
 ##  How to get AppHub
 Apphub server  can run in many environments, including on-premise local server, public cloud(such as alibaba cloud, azure cloud, tencent cloud and so on), private cloud, Advantech WISE-PaaS platform, etc.
 we provide different installtion SOP for different enviroment.
-* [AppHub Server ISO Installation Guild(Install from ISO, On-premise or Cloud VM)](https://drive.google.com/drive/folders/1ijrMNZEtBwX1auGMGfCRlcl2l9r0etTV?usp=sharing)
-* [AppHub Server Online Installation Guild(On-premise or Cloud VM)](https://github.com/EdgeSolution/AppHub-VM-Cloud)
-* [AppHub Server Advantech WISE-PaaS EnSaaS Installation Guild](https://github.com/EdgeSolution/AppHub_On_EnSaaS)
+* [AppHub Server ISO Installation Guide(Install from ISO, On-premise or Cloud VM)](https://drive.google.com/drive/folders/1ijrMNZEtBwX1auGMGfCRlcl2l9r0etTV?usp=sharing)
+* [AppHub Server Online Installation Guide(On-premise or Cloud VM)](https://github.com/EdgeSolution/AppHub-VM-Cloud)
+* [AppHub Server Advantech WISE-PaaS EnSaaS Installation Guide](https://github.com/EdgeSolution/AppHub_On_EnSaaS)
 
 For device，User should install AppHub agent on device, user can download agent from the following we site:
 * [Agent Download(Windows, Linux, Android)](https://drive.google.com/drive/folders/17LYyCHQp48ghUJmuU8s56tuWzMQIpy4X?usp=sharing)

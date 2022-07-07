@@ -29,12 +29,13 @@ AppHub是一款基于web浏览器的远程设备和系统管理软件，可以�
     -   微信号: jianfeng_dai
 
 * 主要功能特性
+![image](https://user-images.githubusercontent.com/20899121/177696870-d35a852f-9d14-4ef1-a984-ed08ebae6b39.png)
+
+![image](https://user-images.githubusercontent.com/20899121/177696920-dc3c9489-4a91-4556-967c-09dab75c6d82.png)
 
 ![image](https://user-images.githubusercontent.com/20899121/159217134-d3c344c5-c44f-41c7-9f28-f968a04bca46.png)
 
-![image](https://user-images.githubusercontent.com/20899121/159217164-08dd2660-2dba-4294-a75a-e5ba895e6880.png)
 
-![image](https://user-images.githubusercontent.com/20899121/159217187-a05174f3-8e30-4dd7-8832-68d7b0270e63.png)
 
 | 功能 |支持情况<br> √支持<br>+进行中<img width=200/> | 描述说明 |
 | ---- | -----  | --- |

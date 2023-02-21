@@ -3,8 +3,8 @@
 AppHub是一款基于web浏览器的远程设备和系统管理软件，可以管理基于Windows、Linux或Android系统的工业边缘设备，提供了软件部署和OTA、实时监控和事件报警以及系统控制和配置等诸多功能。通过使用这些功能，可以大大提高运维效率，节省运维人力、时间和成本。
 同时，AppHub还可以通过边缘设备采集连接跟设备相连的外设模块数据，从而实现对这些子设备，外设模块的状态管理和监控，整个接入过程无需进行编码，完全采用无代码方式，非常快速和方便。
 
-* [AppHub使用文档](https://docs.wise-paas.advantech.com.cn/zh-cn/Guides_and_API_References/ApplicationServices/1611826936336928113/1613468986148692729)
-
+* [AppHub 1.0使用文档](https://docs.wise-paas.advantech.com.cn/zh-cn/Guides_and_API_References/ApplicationServices/1611826936336928113/1613468986148692729)
+* [AppHub 2.0使用文档](https://shimo.im/docx/KrkEVd7lBXIEBOAJ)
     
 * AppHub视频介绍(bilibili)：
     -   [快速入门](https://www.bilibili.com/video/BV1WP4y177xL)

@@ -12,10 +12,10 @@ AppHub是一款基于web浏览器的远程设备和系统管理软件，可以�
     -   [OTA相关功能](https://www.bilibili.com/video/BV1zu411D7gF)
     -   [私有应用商店方案](https://www.bilibili.com/video/BV1aF411p721)
     -   [研华工业Android安全配置管理](https://www.bilibili.com/video/BV1Wf4y1V7WZ)
-    -   AppHub自定义事件，告警和设备联动机制(即将上线，敬请期待，欢迎咨询)
-    -   AppHub对接工业协议数据(即将上线，敬请期待，欢迎咨询)
-    -   AppHub工业数据的自定义可视化展示(即将上线，敬请期待，欢迎咨询)
-    -   AppHub工业数据库保存和实时转发机制(即将上线，敬请期待，欢迎咨询)
+    -   AppHub自定义事件，告警和设备联动机制(欢迎咨询)
+    -   AppHub对接工业协议数据(欢迎咨询)
+    -   AppHub工业数据的自定义可视化展示(欢迎咨询)
+    -   AppHub工业数据库保存和实时转发机制(欢迎咨询)
 
 
 * 如何获取AppHub相关软件<br>

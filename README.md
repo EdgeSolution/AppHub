@@ -18,6 +18,11 @@ AppHub is a web-based solution for remote device and system management. It provi
 *  [Online document](https://docs.wise-paas.advantech.com/en/Guides_and_API_References/ApplicationServices/1611826936336928113/1613468986148692729/v1.0.1)
 *  [Download PDF](https://docs.wise-paas.advantech.com/en/Guides_and_API_References/ApplicationServices/1611826936336928113/1613468986148692729/v1.0.1)
 
+## Live demo
+* [Live demo](http://124.223.16.7:8080/#/)
+* username: admin
+* password: admin
+  
 ##  How to get AppHub
 Apphub server  can run in many environments, including on-premise local server, public cloud(such as alibaba cloud, azure cloud, tencent cloud and so on), private cloud, Advantech WISE-PaaS platform, etc.
 we provide different installtion SOP for different enviroment.

@@ -1,11 +1,10 @@
 [查看中文版](https://github.com/EdgeSolution/AppHub/blob/main/README_ZH.md)
-# WISE-IoTSuite/AppHub
+# AppHub
 ## Remote device and system management service<br>
 AppHub is a web-based solution for remote device and system management. It provides software deployment and OTA, real-time monitoring and event alarm features, and system control/setting functions for industrial edge devices with Windows, Linux, or Android systems. These features improve operation and maintenance efficiency, saving labor, time, and money. 
 
 ## AppHub Architecture Overview 
-
-![image](https://user-images.githubusercontent.com/20899121/159214634-7b0c53a2-f988-4044-a029-caab4a6ce98c.png)
+![image](https://github.com/EdgeSolution/AppHub/assets/20899121/9e207b7d-84c0-41db-ae69-cad6c9aba680)
 
 ## Scenarios
 ![image](https://user-images.githubusercontent.com/20899121/159214546-afdaab20-3c23-443f-8f0d-a255973f8f5b.png)
@@ -94,8 +93,18 @@ Get License from [Advantech Marketplace](https://wise-paas.advantech.com/en-us/m
 |Android remote desktop|	√	| Remote desktop in web browser, Some Android veriosn require BSP customization because of permission|
 |Android Kiosk Mode setting|	√	|BSP cooperation is required. Advantech devices support by default. Kiosk settings can set an Android application to start automatically in full screen, and the menu bar and navigation bar will be automatically hidden|
 |[Anddroid Enterprise security policy](https://github.com/AIM-Android/overview/wiki/Android-Enterprise-Recommended-(AER)-Security-Policy-and-Setting)|	√	|With reference to Google AER features, AppHub support some AER features remote configuration, the device is no need to pass Google GMS and AER certification. After being set by the AppHub, the device user cannot change the security policy on the device. Security related settings such as ADB, camera, USB, WiFi, BT, password management, security log, screenshot permission and so on are supported now and more secuirty features are in developing|
+|**Data acquirement with Industrial protocol support**	|	
+|Data acquirement	|√	| No code to acquire data with industial protocol|
+|Modbus protocol support	|√	| Modbus|
+|OPC-UA protocol support	|√	| OPC-UA|
+|SNMP protocol support	|√	| SNMP|
+|IEC-104 protocol support	|√	| IEC-104|
+|S7 protocol support	|√	| S7|
+|Restful protocol support	|√	| restful|
+|Dashboard	|√	| Embedded dashbard|
 |**Other Features**	|	
 |Advantech codesys device management	|√	|Beside the above functions, AppHub can also manage codesys proprietary functions, for example:  monitoring codesys runtime status, remote deployment project file, reload codesys configure file, and restart codesys App, etc.|
+
 
 * Tested Devies List
     - UNO-348/UNO-238/UNO-2271G/UNO-2484G/UNO-420/UNO-148/UNO-2473G

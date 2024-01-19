@@ -116,6 +116,7 @@ Get License from [Advantech Marketplace](https://wise-paas.advantech.com/en-us/m
     - AIM-37/AIM-65/AIM-68/AIM-75/AIM-78
     - RSB-4710/ROM3420
     - USM-110/DLV-V72
+      
       In theory, it can support any device that installs LInux, Windows, and Android systems.
 
 ## AppHub for Advantech Android Enterprise Solution（Benchmarking Google AER）

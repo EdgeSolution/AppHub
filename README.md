@@ -10,7 +10,8 @@ AppHub is a web-based solution for remote device and system management. It provi
 ![image](https://user-images.githubusercontent.com/20899121/159214546-afdaab20-3c23-443f-8f0d-a255973f8f5b.png)
 
 ## Benifit and Mainly Features
-![image](https://user-images.githubusercontent.com/20899121/159214436-ef65c572-e47a-41d9-853c-3e12e45f14aa.png)
+![image](https://github.com/EdgeSolution/AppHub/assets/20899121/2f3ec2b0-bd2d-4e79-a2c7-c5bc8b39ba3a)
+
 [Details Features List...](https://github.com/EdgeSolution/AppHub#detail-features-descriptions)
 
 ## AppHub User Manual

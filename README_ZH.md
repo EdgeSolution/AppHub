@@ -28,7 +28,7 @@ AppHub是一款基于web浏览器的远程设备和系统管理软件，可以�
     -  [AppHub服务器在线方式安装向导(适用本地部署，云端VM部署等)](https://github.com/EdgeSolution/AppHub-VM-Cloud)
     -  [研华WISE-PaaS中国区公有云官网](https://www.wise-paas.cn/product/WISE-IoTSuite_AppHub)
     -  [研华工业云平部署用户指引](https://github.com/EdgeSolution/AppHub_On_EnSaaS/blob/master/README.md)
-    -  [AppHub设备端Agent(Windows, Linux, Android)，百度云盘提取码：xian](https://pan.baidu.com/s/1dgU8pu1wn8B0bNqVAftiCw)
+    -  [AppHub设备端Agent(Windows, Linux, Android)，百度云盘提取码：xian](https://pan.baidu.com/s/1kuqIMkCbecQVIyGYrXUtyg)
  
  * [购买激活序列号和激活]
     -   [私有部署，离线激活，比如部署在自己的服务器，公有云虚拟机等](https://wise-iot.advantech.com.cn/zh-cn/marketplace/product/advantech.wise-paas-apphub/pricing-details)
